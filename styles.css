@@ -1,0 +1,279 @@
+.main-conatiner{
+  display: flex;
+  width: 980px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  position: relative;
+}
+
+.header-left{
+  display: flex;
+  position: relative;
+}
+
+.header-left p, img, form{
+  display: flex;
+  padding-right: 2em;
+}
+
+#logo{
+  display: flex;
+  height:4em;
+  width: 5em;
+  padding-top: 0;
+}
+
+#glass{
+  color: gray;
+}
+
+form{
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+input{
+  display: flex;
+  width: 100%;
+  height: 1em;
+  border: 0;
+}
+
+.header-right{
+  display: flex;
+  position: relative;
+}
+
+.header-right img, p{
+  display: flex;
+}
+
+#owner{
+  height: 1.75em;
+  width: 1.75em;
+  border-radius: 50%;
+  margin-top: 1em;
+  padding-left: 0;
+  position: relative;
+}
+
+.header-right p{
+  padding-left: 1em;
+  color: gray;
+}
+
+/* end of Header */
+.aside-section-picture{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+
+.aside{
+  display: flex;
+  flex-direction: column;
+  width:200px;
+  height: auto;
+  border-right:solid lightgray;
+  color: gray;
+  margin-top: 2em;
+  position: relative;
+}
+.aside p{
+  margin-bottom: 0.25em;
+}
+
+.aside ul{
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5;
+  margin-top: 0.25em;
+  position: relative;
+}
+
+.aside li{
+  list-style: none;
+  font-weight: bold;
+}
+
+.upper-section{
+  display: flex;
+  justify-content: center;
+  margin: 1.75em;
+  position: relative;
+}
+
+.upper-section img{
+  width: 735px;
+  height: auto;
+}
+
+.lower{
+  display: flex;
+  width: 735px;
+  height: auto;
+  margin-left: 13em;
+  position: relative;
+}
+
+.lower-section{
+  display: flex;
+  line-height: 0;
+  align-content: center;
+  position: relative;
+}
+
+.lower-section-left{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: relative;
+  width:367px;
+  height: auto;
+}
+
+.lower-section-left p{
+  font-size:12px;
+}
+
+#subscribe {
+  background-color: red;
+  color: white;
+  height: 2em;
+  margin-right: 0.75em;
+  position: relative;
+}
+
+.lower-section-right{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  position: relative;
+  width: 367px;
+  height: auto;
+}
+
+.lower-section-right h3{
+  align-self: flex-end;
+  position: relative;
+}
+
+.lower-section-right form{
+  border-bottom: solid green;
+  position: relative;
+}
+
+.lower-section-right p{
+  color: gray;
+  align-self: flex-end;
+  position: relative;
+}
+
+.section-about{
+  display: flex;
+  justify-content:flex-end;
+  width: 735px;
+  height: auto;
+  position: relative;
+}
+
+.section-about-button{
+  display: flex;
+  flex-direction:row;
+}
+
+.section-comments{
+  display: flex;
+  width: 735px;
+  height: auto;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-left: 13em;
+  margin-top: 2em;
+  border-left: 0.1em solid lightgreen;
+  padding-left: 2em;
+  position: relative;
+}
+
+.section-comments-one{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4em;
+  position: relative;
+
+}
+
+.section-comments-one-pic1 img{
+  display: flex;
+  border-radius: 15em;
+  height: 4em;
+  width: 4em;
+  position: relative;
+}
+
+.section-comments-one-view1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.section-comments-one-view1 h4{
+  margin:0;
+}
+
+.section-comments-two{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4em;
+  position: relative;
+}
+
+.section-comments-two-pic2 img{
+  display: flex;
+  border-radius: 15em;
+  height: 4em;
+  width: 4em;
+  position: relative;
+}
+
+.section-comments-two-view2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.section-comments-two-view2 h4{
+  margin: 0;
+}
+
+.section-comments-three{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.section-comments-three-pic3 img{
+  display: flex;
+  border-radius: 15em;
+  height: 4em;
+  width: 4em;
+  position: relative;
+}
+
+.section-comments-one-view3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.section-comments-one-view3 h4{
+  margin:0;
+}
